@@ -7,7 +7,7 @@ pipeline {
     agent any
 
     environment { // Environment variables defined for all steps
-        TOOLS_IMAGE = "registry.demo.local:5000/tools-image"
+        TOOLS_IMAGE = "localhost:5000/tools-image"
     }
 
     stages {
